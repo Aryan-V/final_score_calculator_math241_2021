@@ -36,6 +36,7 @@ drop = 4
 curve1 = [5.5, 7.4, 6.9, 5.9, 18.9]
 curve2 = [4.5, 4.4, 4.4, 4.4, 26.9]
 curve3 = [6, 9.9, 7.9, 5.9, 14.9]
+curve4 = [6, 9.9, 7.9, 5.9, 14.9]
 
 
 # DO NOT MODIFY THE FOLLOWING CODE
@@ -44,8 +45,10 @@ def curve_exam(score, exam):
         curve = curve1
     elif exam == 2:
         curve = curve2
-    else:
+    elif exam == 3:
         curve = curve3
+    else:
+        curve = curve4
 
     ranges = []
     max = 45
