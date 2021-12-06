@@ -17,16 +17,16 @@ totalpercentlost = 0.1
 score1 = 41
 
 # raw second exam score
-score2 = 37.17
+score2 = 41
 
 # raw third exam score
-score3 = 26.85
+score3 = 41
 
 # raw fourth exam score (if not taken yet then input expected score)
-score4 = 35
+score4 = 0
 
 # which exam number you plan on dropping
-drop = 3
+drop = 4
 
 # CURVES
 # DO NOT MODIFY THE FOLLOWING CODE UNLESS FOR A DIFFERENT SEMESTER THAN FALL 2021
