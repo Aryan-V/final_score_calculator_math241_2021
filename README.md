@@ -4,6 +4,8 @@ This calculator determines what score you would need on the Math 241 Final Exam 
 
 Input all midterm scores and the exam number for the midterm you would like to drop. Additionally input the total percent of your grade lost in all other categories.
 
+MIDTERM 4 IS CURVED ON THE SAME SCALE AS MIDTERM 3, ACTUAL CURVE MAY DIFFER FOR MIDTERM 4.
+
 For best results, download as a ZIP file and open the .py file with PyCharm.
 
 Developed by Aryan Vaswani.
