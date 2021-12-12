@@ -11,22 +11,22 @@ https://github.com/Aryan-V/final_score_calculator_math241_2021
 # If being used with a different semester, modify the curves section
 
 # enter the percent of your grade lost in the HW, Worksheets, and Quizzes categories
-totalpercentlost = 0.5
+totalpercentlost = 0.3
 
 # raw first exam score
-score1 = 0.52*45
+score1 = 0
 
 # raw second exam score
-score2 = 0.70*45
+score2 = 0
 
 # raw third exam score
-score3 = 0.44*45
+score3 = 0
 
 # raw fourth exam score (if not taken yet then input expected score)
-score4 = 0.61*45
+score4 = 0
 
 # which exam number you plan on dropping
-drop = 3
+drop = 1
 
 # CURVES
 # DO NOT MODIFY THE FOLLOWING CODE UNLESS FOR A DIFFERENT SEMESTER THAN FALL 2021
@@ -36,7 +36,7 @@ drop = 3
 curve1 = [5.5, 7.4, 6.9, 5.9, 18.9]
 curve2 = [4.5, 4.4, 4.4, 4.4, 26.9]
 curve3 = [6, 9.9, 7.9, 5.9, 14.9]
-curve4 = [6, 9.9, 7.9, 5.9, 14.9]
+curve4 = [7, 6.9, 5.4, 6.4, 18.9]
 
 
 # DO NOT MODIFY THE FOLLOWING CODE
@@ -92,7 +92,7 @@ scores = [score1, score2, score3, score4]
 sum = 0
 
 for nums in range(len(scores)):
-    scores[nums] = curve_exam(round(scores[nums], ndigits=2), nums + 1)
+    scores[nums] = round(curve_exam(round(scores[nums], ndigits=2), nums + 1), ndigits=2)
 
 scores.pop(drop - 1)
 
